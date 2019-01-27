@@ -1,11 +1,9 @@
-# Project Title
+# Instruction for setting up fork branch and setting up your local IDE
 
-One Paragraph of project description goes here
+1. Dev tools/IDEs
+  a. Eclipse
+  b. PostgreSQL
 
-## Getting Started
+2. Installing the plug-in (STS) into  your Eclipse. This is the dev plug-in for Spring boot and Gradle. You can find it from marketplace.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
+3. Creating local DB using the PostgreSQL. In this case, I used 'carpool' as my DB's name, 'postgres' as the username, 'password' as the DB password. If you create the DB with different name and password, change the properties in application.properties file before starting the server.
